@@ -42,6 +42,7 @@ register.addEventListener("click",()=>{
  });
 
 
+ 
  var logo = document.querySelector("nav>img");
 
 logo.addEventListener("click",()=>{
