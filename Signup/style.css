@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.bg {
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -3;
+}
+
+.blend {
+  height: 100vh;
+  width: 100vw;
+  background-color: #dfdfdf71;
+  mix-blend-mode: hard-light;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -2;
+}
+
+.main {
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  width: 513px;
+  height: 513px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto 0px;
+  margin-left: 150px;
+}
+
+.logo {
+  width: 380px;
+}
+
+.brand > h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 78.02px;
+  text-align: left;
+}
+
+.log {
+  width: 600px;
+  height: 70%;
+  border: 1px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #FFFFFF66;
+  box-shadow: 0px 4px 35.4px 0px #0000001A;
+  border-width: 0px, 0px, 0px, 0px;
+  padding: 150px 0px;
+  border-radius: 250px 0px 0px 0px;
+  
+}
+
+.btn {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fadein{
+  opacity: 0; 
+  animation: fadeIn 1s forwards;
+}
+
+.btn1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58.51px;
+  cursor: pointer;
+}
+
+.btn2 {
+    font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24.38px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.563);
+  cursor: pointer;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form>p{
+    font-family: "Montserrat", sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 24.38px;
+text-align: left;
+
+}
+
+.form>input{
+    font-size: 15px;
+    width: 300px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #00000099;
+}
+
+svg{
+    width: 48px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.submit{
+  background-color: transparent;
+  border: 0px;
+}
+
+.form>input:focus-visible{
+    outline: 0px;
+}
+
+.nodisplay{
+    display: none;
+}
+

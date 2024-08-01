@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillBridge</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <img src="./people.png" alt="background" class="bg" />
+    <div class="blend"></div>
+    <div class="main">
+      <div class="brand">
+        <img src="./skillset.png" alt="logo" class="logo" />
+        <h1>SkillBridge</h1>
+      </div>
+      <div class="log">
+        <div class="btn">
+          <p class="btn1 login">Login</p>
+          <p class="btn2 signup">Sign up</p>
+        </div>
+        <div class="form form1">
+          <p>Username</p>
+          <input type="text" name="Username" id="name" />
+          <p>Password</p>
+          <input type="text" name="Password" id="pass" />
+        </div>
+        <div class="form nodisplay form2">
+          <p>Username</p>
+          <input type="text" name="Username" />
+          <p>Phone Number</p>
+          <input type="tel" name="Phone" />
+          <p>Password</p>
+          <input type="text" name="Password" />
+        </div>
+        <button type="button" onclick="Auth()" class="submit">
+          <svg
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M24 32L32 24M32 24L24 16M32 24L16 24M24 4C35.0457 4 44 12.9543 44 24C44 35.0457 35.0457 44 24 44C12.9543 44 4 35.0457 4 24C4 12.9543 12.9543 4 24 4Z"
+              stroke="#1E1E1E"
+              stroke-width="4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="../index.js"></script>
+  </body>
+</html>
