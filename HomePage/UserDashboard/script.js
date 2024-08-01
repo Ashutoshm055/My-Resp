@@ -25,7 +25,7 @@ document.querySelector(".ai").addEventListener("click",()=>{
 var logo = document.querySelector("nav>img");
 
 logo.addEventListener("click",()=>{
-    window.location.href = "../HomePage/index.html";
+    window.location.href = "../index.html";
 });
 
 

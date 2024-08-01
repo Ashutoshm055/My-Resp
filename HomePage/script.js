@@ -34,16 +34,16 @@ var signin = document.querySelector(".navbtn>.btn1");
 var register = document.querySelector(".navbtn>.btn2");
 
 signin.addEventListener("click",()=>{
-   window.location.href = "../login/login.html";
+   window.location.href = "./login/login.html";
 });
 
 register.addEventListener("click",()=>{
-    window.location.href = "../Signup/signup.html";
+    window.location.href = "./Signup/signup.html";
  });
 
 
  var logo = document.querySelector("nav>img");
 
 logo.addEventListener("click",()=>{
-    window.location.href = "../HomePage/index.html";
+    window.location.href = "./index.html";
 });
